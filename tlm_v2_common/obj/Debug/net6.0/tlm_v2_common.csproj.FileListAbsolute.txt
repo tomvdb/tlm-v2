@@ -1,0 +1,12 @@
+C:\source\tlm-v2\tlm_v2_common\bin\Debug\net6.0\tlm_v2_common.deps.json
+C:\source\tlm-v2\tlm_v2_common\bin\Debug\net6.0\tlm_v2_common.dll
+C:\source\tlm-v2\tlm_v2_common\bin\Debug\net6.0\tlm_v2_common.pdb
+C:\source\tlm-v2\tlm_v2_common\obj\Debug\net6.0\tlm_v2_common.csproj.AssemblyReference.cache
+C:\source\tlm-v2\tlm_v2_common\obj\Debug\net6.0\tlm_v2_common.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\tlm-v2\tlm_v2_common\obj\Debug\net6.0\tlm_v2_common.AssemblyInfoInputs.cache
+C:\source\tlm-v2\tlm_v2_common\obj\Debug\net6.0\tlm_v2_common.AssemblyInfo.cs
+C:\source\tlm-v2\tlm_v2_common\obj\Debug\net6.0\tlm_v2_common.csproj.CoreCompileInputs.cache
+C:\source\tlm-v2\tlm_v2_common\obj\Debug\net6.0\tlm_v2_common.dll
+C:\source\tlm-v2\tlm_v2_common\obj\Debug\net6.0\refint\tlm_v2_common.dll
+C:\source\tlm-v2\tlm_v2_common\obj\Debug\net6.0\tlm_v2_common.pdb
+C:\source\tlm-v2\tlm_v2_common\obj\Debug\net6.0\ref\tlm_v2_common.dll

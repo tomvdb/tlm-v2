@@ -1,0 +1,15 @@
+C:\source\tlm-v2\tlmv2_decoder_plugin\bin\Debug\net6.0\tlm_v2_decoder_plugin_interface.deps.json
+C:\source\tlm-v2\tlmv2_decoder_plugin\bin\Debug\net6.0\tlm_v2_decoder_plugin_interface.dll
+C:\source\tlm-v2\tlmv2_decoder_plugin\bin\Debug\net6.0\tlm_v2_decoder_plugin_interface.pdb
+C:\source\tlm-v2\tlmv2_decoder_plugin\obj\Debug\net6.0\tlm_v2_decoder_plugin_interface.csproj.AssemblyReference.cache
+C:\source\tlm-v2\tlmv2_decoder_plugin\obj\Debug\net6.0\tlm_v2_decoder_plugin_interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\tlm-v2\tlmv2_decoder_plugin\obj\Debug\net6.0\tlm_v2_decoder_plugin_interface.AssemblyInfoInputs.cache
+C:\source\tlm-v2\tlmv2_decoder_plugin\obj\Debug\net6.0\tlm_v2_decoder_plugin_interface.AssemblyInfo.cs
+C:\source\tlm-v2\tlmv2_decoder_plugin\obj\Debug\net6.0\tlm_v2_decoder_plugin_interface.csproj.CoreCompileInputs.cache
+C:\source\tlm-v2\tlmv2_decoder_plugin\obj\Debug\net6.0\tlm_v2_decoder_plugin_interface.dll
+C:\source\tlm-v2\tlmv2_decoder_plugin\obj\Debug\net6.0\refint\tlm_v2_decoder_plugin_interface.dll
+C:\source\tlm-v2\tlmv2_decoder_plugin\obj\Debug\net6.0\tlm_v2_decoder_plugin_interface.pdb
+C:\source\tlm-v2\tlmv2_decoder_plugin\obj\Debug\net6.0\ref\tlm_v2_decoder_plugin_interface.dll
+C:\source\tlm-v2\tlmv2_decoder_plugin\bin\Debug\net6.0\tlm_v2_common.dll
+C:\source\tlm-v2\tlmv2_decoder_plugin\bin\Debug\net6.0\tlm_v2_common.pdb
+C:\source\tlm-v2\tlmv2_decoder_plugin\obj\Debug\net6.0\tlm_v2_decoder_plugin_interface.csproj.CopyComplete

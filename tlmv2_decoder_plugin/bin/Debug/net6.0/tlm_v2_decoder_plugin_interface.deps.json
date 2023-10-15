@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "tlm_v2_decoder_plugin_interface/1.0.0": {
+        "dependencies": {
+          "tlm_v2_common": "1.0.0"
+        },
+        "runtime": {
+          "tlm_v2_decoder_plugin_interface.dll": {}
+        }
+      },
+      "tlm_v2_common/1.0.0": {
+        "runtime": {
+          "tlm_v2_common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tlm_v2_decoder_plugin_interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "tlm_v2_common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

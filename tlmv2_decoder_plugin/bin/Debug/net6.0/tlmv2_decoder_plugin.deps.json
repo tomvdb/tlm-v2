@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "tlmv2_decoder_plugin/1.0.0": {
+        "runtime": {
+          "tlmv2_decoder_plugin.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tlmv2_decoder_plugin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,13 @@
+c:\source\tlm-v2\tlm_v2\publish\tlm_v2.pdb
+c:\source\tlm-v2\tlm_v2\publish\cimgui.dll
+c:\source\tlm-v2\tlm_v2\publish\cimplot.dll
+c:\source\tlm-v2\tlm_v2\publish\Roboto-Regular.ttf
+c:\source\tlm-v2\tlm_v2\publish\fixedsys.ttf
+c:\source\tlm-v2\tlm_v2\publish\ImGui.NET.pdb
+c:\source\tlm-v2\tlm_v2\publish\ImGui.NET.xml
+c:\source\tlm-v2\tlm_v2\publish\ImPlot.NET.pdb
+c:\source\tlm-v2\tlm_v2\publish\ImPlot.NET.xml
+c:\source\tlm-v2\tlm_v2\publish\tlm_v2_decoder_plugin_interface.pdb
+c:\source\tlm-v2\tlm_v2\publish\tlm_v2_common.pdb
+c:\source\tlm-v2\tlm_v2\publish\tlm_v2_example_decoder_plugin.pdb
+c:\source\tlm-v2\tlm_v2\publish\tlm_v2

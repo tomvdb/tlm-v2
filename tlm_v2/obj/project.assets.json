@@ -1,0 +1,476 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "MonoGame.Content.Builder.Task/3.8.1.303": {
+        "type": "package",
+        "build": {
+          "build/MonoGame.Content.Builder.Task.props": {},
+          "build/MonoGame.Content.Builder.Task.targets": {}
+        }
+      },
+      "MonoGame.Framework.DesktopGL/3.8.1.303": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MonoGame.Framework.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MonoGame.Framework.dll": {}
+        },
+        "build": {
+          "build/MonoGame.Framework.DesktopGL.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSDL2-2.0.so.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libopenal.so.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx/native/libSDL2.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/libopenal.1.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win-x64/native/SDL2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/soft_oal.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/SDL2.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/soft_oal.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "One_Sgp4/1.0.15": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/One_Sgp4.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/One_Sgp4.dll": {}
+        }
+      },
+      "SuperSimpleTcp/3.0.13": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SuperSimpleTcp.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/SuperSimpleTcp.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.Numerics.Vectors/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ImGui.NET/1.89.9.2": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.4.0"
+        },
+        "compile": {
+          "bin/placeholder/ImGui.NET.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ImGui.NET.dll": {}
+        }
+      },
+      "ImPlot.NET/0.8.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ImGui.NET": "1.89.9.2",
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.4.0"
+        },
+        "compile": {
+          "bin/placeholder/ImPlot.NET.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ImPlot.NET.dll": {}
+        }
+      },
+      "tlm_v2_common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/tlm_v2_common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/tlm_v2_common.dll": {}
+        }
+      },
+      "tlm_v2_decoder_plugin_interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "tlm_v2_common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/tlm_v2_decoder_plugin_interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/tlm_v2_decoder_plugin_interface.dll": {}
+        }
+      },
+      "tlm_v2_example_decoder_plugin/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "tlm_v2_decoder_plugin_interface": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/tlm_v2_example_decoder_plugin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/tlm_v2_example_decoder_plugin.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MonoGame.Content.Builder.Task/3.8.1.303": {
+      "sha512": "9Ilzzje62LhWElbPNEl7vh7XsRSbze+lvCJdZtTZUGu48FRgvYN6THURwIB9PN98EI33/Wnf6iuShNUtD7hL4Q==",
+      "type": "package",
+      "path": "monogame.content.builder.task/3.8.1.303",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/MonoGame.Content.Builder.Task.props",
+        "build/MonoGame.Content.Builder.Task.targets",
+        "monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+        "monogame.content.builder.task.nuspec"
+      ]
+    },
+    "MonoGame.Framework.DesktopGL/3.8.1.303": {
+      "sha512": "eGYhqn0n1olk8MNYeE9EuBmoNNECN1T18rPMaQpkzsEQ0H3nVyFPXC+uCo78v5pi5juQpJ3PSFnSkjzZJ1U58A==",
+      "type": "package",
+      "path": "monogame.framework.desktopgl/3.8.1.303",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/MonoGame.Framework.DesktopGL.targets",
+        "lib/net6.0/MonoGame.Framework.dll",
+        "monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
+        "monogame.framework.desktopgl.nuspec",
+        "runtimes/linux-x64/native/libSDL2-2.0.so.0",
+        "runtimes/linux-x64/native/libopenal.so.1",
+        "runtimes/osx/native/libSDL2.dylib",
+        "runtimes/osx/native/libopenal.1.dylib",
+        "runtimes/win-x64/native/SDL2.dll",
+        "runtimes/win-x64/native/soft_oal.dll",
+        "runtimes/win-x86/native/SDL2.dll",
+        "runtimes/win-x86/native/soft_oal.dll"
+      ]
+    },
+    "One_Sgp4/1.0.15": {
+      "sha512": "QK4aVv5s+/v/pGtoHL/ZGRhs+CfRqetO4EpZ7dHc0sePM9AV1Nn7WTl3lSU7XUGqgRpOV4Zlz6r4xBUqDi0a/A==",
+      "type": "package",
+      "path": "one_sgp4/1.0.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net48/One_Sgp4.dll",
+        "lib/net5.0/One_Sgp4.dll",
+        "lib/net6.0/One_Sgp4.dll",
+        "lib/netcoreapp3.1/One_Sgp4.dll",
+        "lib/netstandard2.0/One_Sgp4.dll",
+        "lib/netstandard2.1/One_Sgp4.dll",
+        "license.txt",
+        "one_sgp4.1.0.15.nupkg.sha512",
+        "one_sgp4.nuspec"
+      ]
+    },
+    "SuperSimpleTcp/3.0.13": {
+      "sha512": "I0fIJ7lzH/gd50Ey6Dsb6uY72DE0ogGZEdtOJVWX27/kSgixo52uv8kcczDfZqARvibbM6XpTsWWk/jxptjWLQ==",
+      "type": "package",
+      "path": "supersimpletcp/3.0.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "lib/net461/SimpleTcp.xml",
+        "lib/net461/SuperSimpleTcp.dll",
+        "lib/net48/SuperSimpleTcp.dll",
+        "lib/net6.0/SimpleTcp.xml",
+        "lib/net6.0/SuperSimpleTcp.dll",
+        "lib/net7.0/SuperSimpleTcp.dll",
+        "lib/netcoreapp3.1/SimpleTcp.xml",
+        "lib/netcoreapp3.1/SuperSimpleTcp.dll",
+        "lib/netstandard2.1/SimpleTcp.xml",
+        "lib/netstandard2.1/SuperSimpleTcp.dll",
+        "supersimpletcp.3.0.13.nupkg.sha512",
+        "supersimpletcp.nuspec"
+      ]
+    },
+    "System.Buffers/4.4.0": {
+      "sha512": "AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
+      "type": "package",
+      "path": "system.buffers/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "system.buffers.4.4.0.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Numerics.Vectors/4.4.0": {
+      "sha512": "UiLzLW+Lw6HLed1Hcg+8jSRttrbuXv7DANVj0DkL9g6EnnzbL75EB7EWsw5uRbhxd/4YdG8li5XizGWepmG3PQ==",
+      "type": "package",
+      "path": "system.numerics.vectors/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Numerics.Vectors.dll",
+        "lib/net46/System.Numerics.Vectors.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Numerics.Vectors.dll",
+        "lib/netstandard1.0/System.Numerics.Vectors.xml",
+        "lib/netstandard2.0/System.Numerics.Vectors.dll",
+        "lib/netstandard2.0/System.Numerics.Vectors.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Numerics.Vectors.dll",
+        "ref/net46/System.Numerics.Vectors.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Numerics.Vectors.dll",
+        "ref/netstandard1.0/System.Numerics.Vectors.xml",
+        "ref/netstandard2.0/System.Numerics.Vectors.dll",
+        "ref/netstandard2.0/System.Numerics.Vectors.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.numerics.vectors.4.4.0.nupkg.sha512",
+        "system.numerics.vectors.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+      "sha512": "9dLLuBxr5GNmOfl2jSMcsHuteEg32BEfUotmmUkmZjpR3RpVHE8YQwt0ow3p6prwA1ME8WqDVZqrr8z6H8G+Kw==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "ImGui.NET/1.89.9.2": {
+      "type": "project",
+      "path": "../../proper_imgui/ImGui.NET/src/ImGui.NET/ImGui.NET.csproj",
+      "msbuildProject": "../../proper_imgui/ImGui.NET/src/ImGui.NET/ImGui.NET.csproj"
+    },
+    "ImPlot.NET/0.8.0": {
+      "type": "project",
+      "path": "../../proper_imgui/ImGui.NET/src/ImPlot.NET/ImPlot.NET.csproj",
+      "msbuildProject": "../../proper_imgui/ImGui.NET/src/ImPlot.NET/ImPlot.NET.csproj"
+    },
+    "tlm_v2_common/1.0.0": {
+      "type": "project",
+      "path": "../tlm_v2_common/tlm_v2_common.csproj",
+      "msbuildProject": "../tlm_v2_common/tlm_v2_common.csproj"
+    },
+    "tlm_v2_decoder_plugin_interface/1.0.0": {
+      "type": "project",
+      "path": "../tlmv2_decoder_plugin/tlm_v2_decoder_plugin_interface.csproj",
+      "msbuildProject": "../tlmv2_decoder_plugin/tlm_v2_decoder_plugin_interface.csproj"
+    },
+    "tlm_v2_example_decoder_plugin/1.0.0": {
+      "type": "project",
+      "path": "../tlm_v2_example_decoder_plugin/tlm_v2_example_decoder_plugin.csproj",
+      "msbuildProject": "../tlm_v2_example_decoder_plugin/tlm_v2_example_decoder_plugin.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "ImGui.NET >= 1.89.9.2",
+      "ImPlot.NET >= 0.8.0",
+      "MonoGame.Content.Builder.Task >= 3.8.1.303",
+      "MonoGame.Framework.DesktopGL >= 3.8.1.303",
+      "One_Sgp4 >= 1.0.15",
+      "SuperSimpleTcp >= 3.0.13",
+      "tlm_v2_common >= 1.0.0",
+      "tlm_v2_decoder_plugin_interface >= 1.0.0",
+      "tlm_v2_example_decoder_plugin >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\source\\tlm-v2\\tlm_v2\\tlm_v2.csproj",
+      "projectName": "tlm_v2",
+      "projectPath": "C:\\source\\tlm-v2\\tlm_v2\\tlm_v2.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\source\\tlm-v2\\tlm_v2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\source\\proper_imgui\\ImGui.NET\\src\\ImGui.NET\\ImGui.NET.csproj": {
+              "projectPath": "C:\\source\\proper_imgui\\ImGui.NET\\src\\ImGui.NET\\ImGui.NET.csproj"
+            },
+            "C:\\source\\proper_imgui\\ImGui.NET\\src\\ImPlot.NET\\ImPlot.NET.csproj": {
+              "projectPath": "C:\\source\\proper_imgui\\ImGui.NET\\src\\ImPlot.NET\\ImPlot.NET.csproj"
+            },
+            "C:\\source\\tlm-v2\\tlmv2_decoder_plugin\\tlm_v2_decoder_plugin_interface.csproj": {
+              "projectPath": "C:\\source\\tlm-v2\\tlmv2_decoder_plugin\\tlm_v2_decoder_plugin_interface.csproj"
+            },
+            "C:\\source\\tlm-v2\\tlm_v2_common\\tlm_v2_common.csproj": {
+              "projectPath": "C:\\source\\tlm-v2\\tlm_v2_common\\tlm_v2_common.csproj"
+            },
+            "C:\\source\\tlm-v2\\tlm_v2_example_decoder_plugin\\tlm_v2_example_decoder_plugin.csproj": {
+              "projectPath": "C:\\source\\tlm-v2\\tlm_v2_example_decoder_plugin\\tlm_v2_example_decoder_plugin.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "MonoGame.Content.Builder.Task": {
+            "target": "Package",
+            "version": "[3.8.1.303, )"
+          },
+          "MonoGame.Framework.DesktopGL": {
+            "target": "Package",
+            "version": "[3.8.1.303, )"
+          },
+          "One_Sgp4": {
+            "target": "Package",
+            "version": "[1.0.15, )"
+          },
+          "SuperSimpleTcp": {
+            "target": "Package",
+            "version": "[3.0.13, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

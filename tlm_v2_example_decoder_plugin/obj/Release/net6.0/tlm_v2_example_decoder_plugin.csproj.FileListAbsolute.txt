@@ -1,0 +1,17 @@
+c:\source\tlm-v2\tlm_v2_example_decoder_plugin\bin\Release\net6.0\tlm_v2_example_decoder_plugin.deps.json
+c:\source\tlm-v2\tlm_v2_example_decoder_plugin\bin\Release\net6.0\tlm_v2_example_decoder_plugin.dll
+c:\source\tlm-v2\tlm_v2_example_decoder_plugin\bin\Release\net6.0\tlm_v2_example_decoder_plugin.pdb
+c:\source\tlm-v2\tlm_v2_example_decoder_plugin\bin\Release\net6.0\tlm_v2_common.dll
+c:\source\tlm-v2\tlm_v2_example_decoder_plugin\bin\Release\net6.0\tlm_v2_decoder_plugin_interface.dll
+c:\source\tlm-v2\tlm_v2_example_decoder_plugin\bin\Release\net6.0\tlm_v2_decoder_plugin_interface.pdb
+c:\source\tlm-v2\tlm_v2_example_decoder_plugin\bin\Release\net6.0\tlm_v2_common.pdb
+c:\source\tlm-v2\tlm_v2_example_decoder_plugin\obj\Release\net6.0\tlm_v2_example_decoder_plugin.csproj.AssemblyReference.cache
+c:\source\tlm-v2\tlm_v2_example_decoder_plugin\obj\Release\net6.0\tlm_v2_example_decoder_plugin.GeneratedMSBuildEditorConfig.editorconfig
+c:\source\tlm-v2\tlm_v2_example_decoder_plugin\obj\Release\net6.0\tlm_v2_example_decoder_plugin.AssemblyInfoInputs.cache
+c:\source\tlm-v2\tlm_v2_example_decoder_plugin\obj\Release\net6.0\tlm_v2_example_decoder_plugin.AssemblyInfo.cs
+c:\source\tlm-v2\tlm_v2_example_decoder_plugin\obj\Release\net6.0\tlm_v2_example_decoder_plugin.csproj.CoreCompileInputs.cache
+c:\source\tlm-v2\tlm_v2_example_decoder_plugin\obj\Release\net6.0\tlm_v2_example_decoder_plugin.csproj.CopyComplete
+c:\source\tlm-v2\tlm_v2_example_decoder_plugin\obj\Release\net6.0\tlm_v2_example_decoder_plugin.dll
+c:\source\tlm-v2\tlm_v2_example_decoder_plugin\obj\Release\net6.0\refint\tlm_v2_example_decoder_plugin.dll
+c:\source\tlm-v2\tlm_v2_example_decoder_plugin\obj\Release\net6.0\tlm_v2_example_decoder_plugin.pdb
+c:\source\tlm-v2\tlm_v2_example_decoder_plugin\obj\Release\net6.0\ref\tlm_v2_example_decoder_plugin.dll
